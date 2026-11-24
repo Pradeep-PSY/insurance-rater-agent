@@ -1,0 +1,36 @@
+{
+  "ruleId": "GODIGIT-RAW-MAX-CD2-SAMPLE",
+  "insurer": "GO_DIGIT",
+  "productScope": "PRIVATE_CAR_SATP",
+  "ruleCategory": "RAW_OBSERVATION",
+  "conditions": [
+    { "dimension": "rtoCluster", "operator": "EQ", "value": "UP_Bad" },
+    { "dimension": "vehicleSegment", "operator": "EQ", "value": "Petrol>1000" },
+    { "dimension": "age", "operator": "ALL" }
+  ],
+  "effect": {
+    "kind": "RAW_METRIC",
+    "rawLabel": "Max CD2",
+    "rawValue": "0.295",
+    "displayUnit": "PERCENT_FORMATTED",
+    "meaningStatus": "UNRESOLVED",
+    "eligibleForCommissionOutput": false
+  },
+  "priority": {
+    "tier": "STANDARD_GRID",
+    "rank": 100,
+    "sourceLabel": "4W SATP"
+  },
+  "sourceEvidence": [
+    {
+      "evidenceId": "godigit-4w-satp-e293",
+      "sourceKind": "COMMISSION_GRID_XLSX",
+      "fileName": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+      "sheetName": "4W SATP",
+      "cellRange": "B293:F293",
+      "extractionMethod": "EXCEL_CELL",
+      "notes": "The raw Max CD2 value is preserved; it is not approved as TP commission."
+    }
+  ],
+  "notes": "Do not emit 29.5% as a TP commission rate until the field definition is authoritatively established."
+}

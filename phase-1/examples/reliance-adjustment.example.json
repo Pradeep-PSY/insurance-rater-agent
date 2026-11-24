@@ -1,0 +1,29 @@
+{
+  "ruleId": "RELIANCE-CC-RELATIVE-REDUCTION",
+  "insurer": "RELIANCE_INDUSIND",
+  "productScope": "PRIVATE_CAR_COMPREHENSIVE",
+  "ruleCategory": "ADJUSTMENT",
+  "conditions": [
+    { "dimension": "engineCC", "operator": "LT", "value": 1000 }
+  ],
+  "effect": {
+    "kind": "RELATIVE_ADJUSTMENT",
+    "operation": "MULTIPLY_RATE",
+    "factor": "0.95",
+    "description": "5% relative reduction from the base rate."
+  },
+  "priority": {
+    "tier": "STANDARD_GRID",
+    "rank": 100
+  },
+  "sourceEvidence": [
+    {
+      "evidenceId": "reliance-owner-clarification-5pct",
+      "sourceKind": "OWNER_CLARIFICATION",
+      "clarificationId": "OWNER-CLARIFICATION-2026-11-23-RELIANCE-5PCT",
+      "clarificationDate": "2026-11-23",
+      "quote": "New Rate = Base Rate × (1 - 0.05) = Base Rate × 0.95.",
+      "extractionMethod": "OWNER_INPUT"
+    }
+  ]
+}

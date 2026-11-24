@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "2A.0.0",
+  "generatedAt": "2026-11-23T22:12:00+05:30",
+  "manifestFound": false,
+  "manifestError": "MANIFEST.json was not found in the repository or inspected source directories.",
+  "manifestVerifications": [],
+  "documents": [],
+  "compactSummary": {
+    "manifestPassCount": 0,
+    "manifestFailCount": 0,
+    "workbookCount": 0,
+    "pdfCount": 0,
+    "workbookSheetCount": 0,
+    "pdfPageCount": 0
+  },
+  "noCommissionRulesEmitted": true
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PENDING_EVIDENCE",
+  "baseCommissionRatePercent": "38.00",
+  "baseCommissionAmount": null,
+  "incrementalCoaStatus": "PENDING_EVIDENCE",
+  "incrementalCoaRatePercent": null,
+  "incrementalCoaAmount": null,
+  "grossPayoutStatus": "PENDING_EVIDENCE",
+  "grossPayout": null,
+  "settlementAdjustments": [],
+  "netPayableStatus": "PENDING_EVIDENCE",
+  "netPayable": null,
+  "notes": [
+    "A 38.00% base SATP rate candidate was found in the standard grid.",
+    "Do not finalize all-in payout until issue/login-date version, override precedence and incremental COA are checked.",
+    "The stale pci checks pivot is not evidence that incremental COA is zero."
+  ]
+}

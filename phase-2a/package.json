@@ -1,0 +1,24 @@
+{
+  "name": "insurance-rater-phase-2a",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "inventory": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "pdfjs-dist": "^5.4.530",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "pdf-lib": "^1.17.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  }
+}

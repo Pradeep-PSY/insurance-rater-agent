@@ -1,0 +1,32 @@
+{
+  "component": "PACKAGE",
+  "applicability": "APPLICABLE",
+  "status": "AMBIGUOUS",
+  "ratePercent": null,
+  "candidateRatePercent": "17.50",
+  "premiumBasis": "TOTAL_NET_PACKAGE_PREMIUM",
+  "premiumBasisAmount": { "amount": "11869.00", "currency": "INR" },
+  "matchedRuleIds": ["HDFC-PACKAGE-SAMPLE-CANDIDATE"],
+  "evidence": [
+    {
+      "evidenceId": "hdfc-grid-rate",
+      "sourceKind": "COMMISSION_GRID_PDF",
+      "fileName": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+      "pageNumber": 1,
+      "notes": "The candidate percentage is from the package rate row; fuel provenance must be accepted before the result is approved.",
+      "extractionMethod": "PDF_TEXT"
+    },
+    {
+      "evidenceId": "owner-package-basis",
+      "sourceKind": "OWNER_CLARIFICATION",
+      "clarificationId": "OWNER-CLARIFICATION-2026-11-23-HDFC-PACKAGE-BASIS",
+      "clarificationDate": "2026-11-23",
+      "quote": "Package rate applies to OD net premium plus TP/liability net premium; GST excluded.",
+      "extractionMethod": "OWNER_INPUT"
+    }
+  ],
+  "reasons": [
+    "Package rate is applied once to total net package premium.",
+    "OD and TP component rates are not separately specified when a package rate is used."
+  ]
+}
