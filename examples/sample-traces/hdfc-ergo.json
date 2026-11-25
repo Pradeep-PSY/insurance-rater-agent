@@ -1,0 +1,208 @@
+{
+  "insurer": "HDFC_ERGO",
+  "adapterStatus": "DRAFT_NOT_APPROVED",
+  "decisionStatus": "AMBIGUOUS",
+  "reasonCode": "FUEL_EVIDENCE_MISSING_OR_UNAPPROVED",
+  "sourceFile": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+  "sourcePath": "raters/hdfc-ergo/feb-2025/Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+  "sourceSha256": "d0900bf67631151ac5a9b398402279a56e5bc75a13659de6f294a3b298712bf9",
+  "gridSelection": {
+    "status": "AVAILABLE_SOURCE_VERSION",
+    "anchorKind": "POLICY_ISSUE_DATE",
+    "anchorDate": "2026-03-26",
+    "effectiveFrom": "2025-02-01",
+    "latestGridFallbackUsed": false,
+    "reason": "The printed effective-from date is cited; no later grid fallback is performed. Candidate table values remain conditional.",
+    "evidence": [
+      {
+        "sourceKind": "COMMISSION_GRID_PDF",
+        "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+        "page": 1,
+        "sheet": null,
+        "cellRange": null,
+        "locator": "printed effective-from text item"
+      }
+    ]
+  },
+  "components": [
+    {
+      "component": "OD",
+      "applicability": "NOT_SEPARATELY_SPECIFIED",
+      "status": "NOT_SEPARATELY_SPECIFIED",
+      "finalRatePercent": null,
+      "candidateRatePercent": null,
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[138]"
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[140]"
+        }
+      ],
+      "reason": "The selected table publishes a Package rate, not a separate OD rate."
+    },
+    {
+      "component": "TP",
+      "applicability": "NOT_SEPARATELY_SPECIFIED",
+      "status": "NOT_SEPARATELY_SPECIFIED",
+      "finalRatePercent": null,
+      "candidateRatePercent": null,
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[138]"
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[140]"
+        }
+      ],
+      "reason": "The Package rate is applied once to total eligible net package premium; no separate TP rate is generated."
+    },
+    {
+      "component": "PACKAGE",
+      "applicability": "APPLICABLE",
+      "status": "WITHHELD",
+      "finalRatePercent": null,
+      "candidateRatePercent": "17.50",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[138]"
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[140]"
+        }
+      ],
+      "reason": "Fuel is required by the grid's Petrol/Non-Petrol header and is missing from policy evidence; the available Diesel corroboration is external and unapproved. Candidate values are conditional only and are not an approved or final commission rate."
+    }
+  ],
+  "uninterpretedMetrics": [],
+  "rateAdjustments": [],
+  "payoutStages": [
+    {
+      "stage": "PACKAGE_BASE_COMMISSION",
+      "status": "NOT_CALCULATED",
+      "reason": "Fuel provenance is unresolved; final rate and payout remain withheld. Package basis excludes GST.",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[138]"
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[140]"
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "sequence": 1,
+      "stage": "GRID_VERSION",
+      "status": "COMPLETED",
+      "summary": "Supplied grid states effective from 2025-02-01.",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "printed effective-from text item"
+        }
+      ]
+    },
+    {
+      "sequence": 2,
+      "stage": "POLICY_FACTS",
+      "status": "BLOCKED",
+      "summary": "Fuel is required by the grid's Petrol/Non-Petrol header and is missing from policy evidence; the available Diesel corroboration is external and unapproved. Candidate values are conditional only and are not an approved or final commission rate.",
+      "evidence": []
+    },
+    {
+      "sequence": 3,
+      "stage": "RATE_MATCH",
+      "status": "BLOCKED",
+      "summary": "Fuel is required to select the Petrol/Non-Petrol column; conditional candidates are not final rates.",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[138]"
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[140]"
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "stage": "PAYOUT",
+      "status": "BLOCKED",
+      "summary": "No final commission rate or payout is calculated.",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[138]"
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_PDF",
+          "file": "Pvt Car New Grid Eff 1st Feb'25 (HDFC ergo) 1.pdf",
+          "page": 1,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "page[1].textItems[140]"
+        }
+      ]
+    }
+  ],
+  "sourceReport": "phase-2b-hdfc/artifacts/hdfc-ergo/HDFC-ERGO-ADAPTER-REPORT.md"
+}

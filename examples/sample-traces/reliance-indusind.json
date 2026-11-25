@@ -1,0 +1,186 @@
+{
+  "insurer": "RELIANCE_INDUSIND",
+  "adapterStatus": "DRAFT_NOT_APPROVED",
+  "decisionStatus": "UNSUPPORTED",
+  "reasonCode": "NO_TEMPORALLY_APPLICABLE_GRID",
+  "sourceFile": "Reliance Broking Premier  FEB 26 Grid.xlsx",
+  "sourcePath": "raters/reliance-indusind/feb-2026/Reliance Broking Premier  FEB 26 Grid.xlsx",
+  "sourceSha256": "50cd340b3ea5917d4fc6d55e720c14405f26d5076c059414b69a6c03ea7b3142",
+  "gridSelection": {
+    "status": "NO_APPLICABLE_VERSION",
+    "anchorKind": "POLICY_ISSUE_DATE",
+    "anchorDate": "2025-12-12",
+    "effectiveFrom": null,
+    "latestGridFallbackUsed": false,
+    "reason": "NOT_COVERED_FROM_AVAILABLE_EVIDENCE",
+    "evidence": [
+      {
+        "sourceKind": "POLICY_PDF",
+        "file": "pvt-car-comprehensive-reliance.pdf",
+        "page": 2,
+        "sheet": null,
+        "cellRange": null,
+        "locator": null
+      }
+    ]
+  },
+  "components": [
+    {
+      "component": "OD",
+      "applicability": "UNRESOLVED",
+      "status": "UNSUPPORTED",
+      "finalRatePercent": null,
+      "candidateRatePercent": null,
+      "evidence": [
+        {
+          "sourceKind": "POLICY_PDF",
+          "file": "pvt-car-comprehensive-reliance.pdf",
+          "page": 2,
+          "sheet": null,
+          "cellRange": null,
+          "locator": null
+        }
+      ],
+      "reason": "The provided grid does not cover the issue-date anchor."
+    },
+    {
+      "component": "TP",
+      "applicability": "UNRESOLVED",
+      "status": "UNSUPPORTED",
+      "finalRatePercent": null,
+      "candidateRatePercent": null,
+      "evidence": [
+        {
+          "sourceKind": "POLICY_PDF",
+          "file": "pvt-car-comprehensive-reliance.pdf",
+          "page": 2,
+          "sheet": null,
+          "cellRange": null,
+          "locator": null
+        }
+      ],
+      "reason": "The provided grid does not cover the issue-date anchor."
+    },
+    {
+      "component": "PACKAGE",
+      "applicability": "UNRESOLVED",
+      "status": "UNSUPPORTED",
+      "finalRatePercent": null,
+      "candidateRatePercent": null,
+      "evidence": [
+        {
+          "sourceKind": "POLICY_PDF",
+          "file": "pvt-car-comprehensive-reliance.pdf",
+          "page": 2,
+          "sheet": null,
+          "cellRange": null,
+          "locator": null
+        }
+      ],
+      "reason": "The provided grid does not cover the issue-date anchor."
+    }
+  ],
+  "uninterpretedMetrics": [],
+  "rateAdjustments": [
+    {
+      "ruleId": "RELIANCE_H3_UNDER_1000_CC",
+      "operation": "MULTIPLY_RATE",
+      "operand": "0.95",
+      "status": "NOT_APPLIED",
+      "reason": "The relative reduction is preserved as multiplier 0.95 but is not applied because the supplied grid does not cover the issue-date anchor.",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Reliance Broking Premier  FEB 26 Grid.xlsx",
+          "page": null,
+          "sheet": "PRIVATE CAR COMP, SAOD & STP",
+          "cellRange": "H3",
+          "locator": null
+        },
+        {
+          "sourceKind": "OWNER_CLARIFICATION",
+          "file": "docs/phase-0/reliance-rulebook.md",
+          "page": null,
+          "sheet": null,
+          "cellRange": null,
+          "locator": "2026-11-23 H3 clarification"
+        }
+      ]
+    }
+  ],
+  "payoutStages": [
+    {
+      "stage": "BASE_COMMISSION",
+      "status": "NOT_CALCULATED",
+      "reason": "No temporally applicable grid; no rate or payout is calculated.",
+      "evidence": [
+        {
+          "sourceKind": "POLICY_PDF",
+          "file": "pvt-car-comprehensive-reliance.pdf",
+          "page": 2,
+          "sheet": null,
+          "cellRange": null,
+          "locator": null
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "sequence": 1,
+      "stage": "DATE_ANCHOR",
+      "status": "COMPLETED",
+      "summary": "Policy issue-date anchor: 2025-12-12.",
+      "evidence": [
+        {
+          "sourceKind": "POLICY_PDF",
+          "file": "pvt-car-comprehensive-reliance.pdf",
+          "page": 2,
+          "sheet": null,
+          "cellRange": null,
+          "locator": null
+        }
+      ]
+    },
+    {
+      "sequence": 2,
+      "stage": "GRID_VERSION",
+      "status": "BLOCKED",
+      "summary": "NOT_COVERED_FROM_AVAILABLE_EVIDENCE",
+      "evidence": []
+    },
+    {
+      "sequence": 3,
+      "stage": "RATE_RESOLUTION",
+      "status": "BLOCKED",
+      "summary": "The later-labelled grid is not selected retrospectively.",
+      "evidence": [
+        {
+          "sourceKind": "POLICY_PDF",
+          "file": "pvt-car-comprehensive-reliance.pdf",
+          "page": 2,
+          "sheet": null,
+          "cellRange": null,
+          "locator": null
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "stage": "PAYOUT",
+      "status": "BLOCKED",
+      "summary": "Final commission and payout remain withheld.",
+      "evidence": [
+        {
+          "sourceKind": "POLICY_PDF",
+          "file": "pvt-car-comprehensive-reliance.pdf",
+          "page": 2,
+          "sheet": null,
+          "cellRange": null,
+          "locator": null
+        }
+      ]
+    }
+  ],
+  "sourceReport": "phase-2b-reliance/artifacts/reliance-private-car/RELIANCE-ADAPTER-REPORT.md"
+}

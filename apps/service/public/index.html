@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10233f">
+    <title>Insurance Rater | Evidence Review</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Insurance Rater home">
+        <span class="brand-mark">IR</span>
+        <span>Insurance Rater <small>Evidence review workspace</small></span>
+      </a>
+      <div class="top-actions">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>Private reviewer workspace</span>
+        <button id="signOut" class="button button-quiet" type="button">Sign out</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div>
+          <p class="eyebrow">MOTOR COMMISSION ANALYSIS</p>
+          <h1>Review a policy with its evidence.</h1>
+          <p class="intro-copy">Upload a policy PDF to create a persistent analysis record. Every decision is designed to show its source or clearly explain why a rate is withheld.</p>
+        </div>
+        <div class="notice notice-warning">
+          <strong>Prototype limitation</strong>
+          <span>OCR, structured fact extraction, and approved production rule bundles are not configured. New uploads will complete as <b>UNSUPPORTED</b>; no commission rate will be invented.</span>
+        </div>
+      </section>
+
+      <section id="accessPanel" class="panel access-panel" aria-labelledby="accessTitle">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">WORKSPACE ACCESS</p>
+            <h2 id="accessTitle">Sign in to your reviewer workspace</h2>
+          </div>
+        </div>
+        <form id="accessForm" class="access-form">
+          <label for="accessToken">Reviewer access token</label>
+          <div class="inline-form">
+            <input id="accessToken" type="password" autocomplete="current-password" required minlength="32" placeholder="Enter the token configured by the workspace owner">
+            <button class="button button-primary" type="submit">Continue</button>
+          </div>
+          <p id="accessMessage" class="muted small">The token is kept in this browser session only. Never share it or enter it on an untrusted device.</p>
+        </form>
+      </section>
+
+      <div id="workspace" class="workspace hidden">
+        <section class="panel upload-panel" aria-labelledby="uploadTitle">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">NEW ANALYSIS</p>
+              <h2 id="uploadTitle">Upload a motor policy</h2>
+            </div>
+            <span class="pill">PDF only · max 25 MB</span>
+          </div>
+          <form id="uploadForm" class="upload-form">
+            <label id="dropZone" class="drop-zone" for="policyFile">
+              <span class="upload-icon" aria-hidden="true">↑</span>
+              <strong>Choose a policy PDF</strong>
+              <span id="fileName" class="muted">or drop it here</span>
+              <input id="policyFile" type="file" accept="application/pdf,.pdf" required>
+            </label>
+            <div class="upload-actions">
+              <p class="muted small">Uploads are stored privately. Only the access token holder can view this workspace.</p>
+              <button id="uploadButton" class="button button-primary" type="submit">Upload and analyze</button>
+            </div>
+            <p id="uploadMessage" class="form-message" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+
+        <section class="panel history-panel" aria-labelledby="historyTitle">
+          <div class="panel-heading history-heading">
+            <div>
+              <p class="eyebrow">DURABLE HISTORY</p>
+              <h2 id="historyTitle">Recent analyses</h2>
+            </div>
+            <div class="history-tools">
+              <label class="sr-only" for="searchRuns">Search analyses</label>
+              <input id="searchRuns" type="search" placeholder="Search filenames">
+              <button id="refreshRuns" class="button button-quiet" type="button">Refresh</button>
+            </div>
+          </div>
+          <div id="runsList" class="runs-list" aria-live="polite">
+            <p class="muted empty-state">Sign in to load analysis history.</p>
+          </div>
+        </section>
+
+        <section id="detailPanel" class="panel detail-panel hidden" aria-labelledby="detailTitle">
+          <div class="panel-heading detail-heading">
+            <div>
+              <p class="eyebrow">ANALYSIS RESULT</p>
+              <h2 id="detailTitle">Select an analysis</h2>
+              <p id="detailSubtitle" class="muted small"></p>
+            </div>
+            <div id="detailBadges" class="badge-group"></div>
+          </div>
+          <div id="detailContent" class="detail-content">
+            <p class="muted empty-state">Choose an analysis from the list to inspect its evidence and decision trace.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <span>Evidence-backed decisions only.</span>
+      <span>Policy files are sensitive. Do not upload documents unless authorized.</span>
+    </footer>
+  </body>
+</html>

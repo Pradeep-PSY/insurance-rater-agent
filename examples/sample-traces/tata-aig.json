@@ -1,0 +1,911 @@
+{
+  "insurer": "TATA_AIG",
+  "adapterStatus": "DRAFT_NOT_APPROVED",
+  "decisionStatus": "AMBIGUOUS",
+  "reasonCode": "DATE_ANCHOR_AND_ALL_IN_PAYOUT_UNRESOLVED",
+  "sourceFile": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+  "sourcePath": "raters/tata-aig/march-2026/Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+  "sourceSha256": "c62b657e7d819a250cb86549c177f88ff0277835d39a2a3e0d337fdc9915f879",
+  "gridSelection": {
+    "status": "UNRESOLVED",
+    "anchorKind": "POLICY_ISSUE_DATE_OR_INSURER_DEFINED_LOGIN_DATE",
+    "anchorDate": null,
+    "effectiveFrom": null,
+    "latestGridFallbackUsed": false,
+    "reason": "Policy issue date is not established and no authoritative login-date anchor is supplied; cover start is not substituted.",
+    "evidence": []
+  },
+  "components": [
+    {
+      "component": "OD",
+      "applicability": "NOT_APPLICABLE",
+      "status": "NOT_APPLICABLE",
+      "finalRatePercent": null,
+      "candidateRatePercent": null,
+      "evidence": [],
+      "reason": "The sample is stand-alone TP."
+    },
+    {
+      "component": "TP",
+      "applicability": "APPLICABLE",
+      "status": "WITHHELD",
+      "finalRatePercent": null,
+      "candidateRatePercent": "38.0",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V535",
+          "locator": null
+        }
+      ],
+      "reason": "The invariant standard-grid value is a base candidate only; date/version, override status, and COA inputs remain pending."
+    },
+    {
+      "component": "PACKAGE",
+      "applicability": "NOT_APPLICABLE",
+      "status": "NOT_APPLICABLE",
+      "finalRatePercent": null,
+      "candidateRatePercent": null,
+      "evidence": [],
+      "reason": "The sample is stand-alone TP."
+    }
+  ],
+  "uninterpretedMetrics": [],
+  "rateAdjustments": [],
+  "payoutStages": [
+    {
+      "stage": "DATE_ANCHOR",
+      "status": "PENDING",
+      "reason": "A verified policy issue date or insurer-defined login-date requirement is not established by the available source IR.",
+      "evidence": []
+    },
+    {
+      "stage": "ACTIVE_GRID_VERSION",
+      "status": "PENDING",
+      "reason": "The grid IR effective-date status is UNKNOWN; the month-specific version cannot be selected without a verified anchor.",
+      "evidence": []
+    },
+    {
+      "stage": "OVERRIDE_SELECTION",
+      "status": "PENDING",
+      "reason": "No policy-, fleet-, PAN-, code-specific override records or authoritative no-override confirmation are supplied.",
+      "evidence": []
+    },
+    {
+      "stage": "INCREMENTAL_COA",
+      "status": "PENDING",
+      "reason": "Producer GWP, current slab, increment value/basis, and base-rule all-inclusive status are unavailable; stale pivot zeros are not used.",
+      "evidence": []
+    },
+    {
+      "stage": "GROSS_PAYOUT",
+      "status": "PENDING",
+      "reason": "A candidate base rate is not an all-in payout; the date, override, and incremental COA stages are pending.",
+      "evidence": []
+    },
+    {
+      "stage": "SETTLEMENT",
+      "status": "PENDING",
+      "reason": "No signed settlement entries or authoritative accounting semantics are available; tax/clawback adjustments are not calculated.",
+      "evidence": []
+    }
+  ],
+  "trace": [
+    {
+      "sequence": 1,
+      "stage": "DATE_ANCHOR",
+      "status": "BLOCKED",
+      "summary": "Policy issue-date/login-date anchor is not established; cover start is not substituted.",
+      "evidence": []
+    },
+    {
+      "sequence": 2,
+      "stage": "BASE_GRID",
+      "status": "COMPLETED",
+      "summary": "38.0% is invariant across all seven candidate Type rows; no body-type mapping is asserted.",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V511",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V515",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V519",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V523",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V527",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V531",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "G535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "H535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "I535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "J535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "K535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "L535",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Tata AIG Standard Grid_Communication_Mar'26_F_v2_0212.xlsx",
+          "page": null,
+          "sheet": "Pvtcar",
+          "cellRange": "V535",
+          "locator": null
+        }
+      ]
+    },
+    {
+      "sequence": 3,
+      "stage": "OVERRIDE_SELECTION",
+      "status": "BLOCKED",
+      "summary": "Override status for intermediary code 721 is unverified; hierarchy dimensions remain separate.",
+      "evidence": []
+    },
+    {
+      "sequence": 4,
+      "stage": "INCREMENTAL_COA",
+      "status": "BLOCKED",
+      "summary": "Producer GWP, slab, increment, basis, eligibility, and all-inclusive status are not evidenced.",
+      "evidence": []
+    },
+    {
+      "sequence": 5,
+      "stage": "SETTLEMENT",
+      "status": "BLOCKED",
+      "summary": "No signed settlement entries or authoritative accounting semantics are available.",
+      "evidence": []
+    }
+  ],
+  "sourceReport": "phase-2b-tata-aig/artifacts/tata-aig-satp/TATA-AIG-ADAPTER-REPORT.md"
+}

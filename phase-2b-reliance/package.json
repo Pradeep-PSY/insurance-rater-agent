@@ -1,0 +1,21 @@
+{
+  "name": "insurance-rater-phase-2b-reliance",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --dir test --pool=threads --maxWorkers=1",
+    "normalize": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.20.6",
+    "typescript": "^5.8.2",
+    "vitest": "^5.1.1"
+  }
+}

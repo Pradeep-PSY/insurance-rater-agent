@@ -44,3 +44,9 @@ npm run typecheck
 ## Scope boundary
 
 These are Phase 1 contracts, not the rating engine. They define valid data shapes; they do not yet decide whether a rule matches a policy.
+
+## Reviewer application (implementation in progress)
+
+The browser reviewer and persistent upload/history service are in [apps/service/](./apps/service/). It uses PostgreSQL for durable history and a private S3-compatible bucket for original PDFs. See [the service setup guide](./apps/service/README.md) for local and deployment requirements.
+
+Important: OCR, structured policy fact extraction, and approved production rule bundles are not yet configured. The current service safely saves and processes uploads but returns `UNSUPPORTED` without a commission percentage. No hosted deployment or durable-provider boundary has been verified.

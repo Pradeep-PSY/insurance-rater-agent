@@ -1,0 +1,196 @@
+{
+  "insurer": "GO_DIGIT",
+  "adapterStatus": "DRAFT_NOT_APPROVED",
+  "decisionStatus": "AMBIGUOUS",
+  "reasonCode": "MAX_CD2_SEMANTICS_UNRESOLVED",
+  "sourceFile": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+  "sourcePath": "raters/godigit/march-2026/Large Insurance Brokers Mar'26 - Shared.xlsx",
+  "sourceSha256": "6efb7ca43e7dae72339601e4daebef015f0b486cde0cbb5a0f6524356e3ac034",
+  "gridSelection": {
+    "status": "UNRESOLVED",
+    "anchorKind": "POLICY_ISSUE_DATE",
+    "anchorDate": null,
+    "effectiveFrom": null,
+    "latestGridFallbackUsed": false,
+    "reason": "Effective date bounds are unknown; the filename period is not used as an effective date.",
+    "evidence": []
+  },
+  "components": [
+    {
+      "component": "OD",
+      "applicability": "NOT_APPLICABLE",
+      "status": "NOT_APPLICABLE",
+      "finalRatePercent": null,
+      "candidateRatePercent": null,
+      "evidence": [],
+      "reason": "The sample is stand-alone TP."
+    },
+    {
+      "component": "TP",
+      "applicability": "APPLICABLE",
+      "status": "WITHHELD",
+      "finalRatePercent": null,
+      "candidateRatePercent": null,
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W  RTO",
+          "cellRange": "B1609:C1609",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W SATP",
+          "cellRange": "B293:F293",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W SATP",
+          "cellRange": "E293",
+          "locator": null
+        }
+      ],
+      "reason": "Max CD2 is an uninterpreted source metric, not an approved commission percentage."
+    },
+    {
+      "component": "PACKAGE",
+      "applicability": "NOT_APPLICABLE",
+      "status": "NOT_APPLICABLE",
+      "finalRatePercent": null,
+      "candidateRatePercent": null,
+      "evidence": [],
+      "reason": "The sample is stand-alone TP."
+    }
+  ],
+  "uninterpretedMetrics": [
+    {
+      "fieldName": "Max CD2",
+      "rawValue": "0.295",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W SATP",
+          "cellRange": "E293",
+          "locator": null
+        }
+      ]
+    }
+  ],
+  "rateAdjustments": [],
+  "payoutStages": [
+    {
+      "stage": "TP_COMMISSION",
+      "status": "NOT_CALCULATED",
+      "reason": "Source field semantics are unresolved; no TP commission is emitted.",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W SATP",
+          "cellRange": "E293",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W SATP",
+          "cellRange": "B293:F293",
+          "locator": null
+        }
+      ]
+    }
+  ],
+  "trace": [
+    {
+      "sequence": 1,
+      "stage": "GRID_VERSION",
+      "status": "BLOCKED",
+      "summary": "Effective date bounds are unknown; no current version can be selected.",
+      "evidence": []
+    },
+    {
+      "sequence": 2,
+      "stage": "RTO_AND_ROW_MATCH",
+      "status": "COMPLETED",
+      "summary": "The adapter draft records the SATP RTO mapping and row candidate.",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W  RTO",
+          "cellRange": "B1609:C1609",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W SATP",
+          "cellRange": "B293:F293",
+          "locator": null
+        }
+      ]
+    },
+    {
+      "sequence": 3,
+      "stage": "FIELD_SEMANTICS",
+      "status": "BLOCKED",
+      "summary": "Max CD2 is preserved raw and is not eligible for commission output.",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W SATP",
+          "cellRange": "E293",
+          "locator": null
+        }
+      ]
+    },
+    {
+      "sequence": 4,
+      "stage": "RATE_RESOLUTION",
+      "status": "BLOCKED",
+      "summary": "TP commission remains withheld; OD is not applicable.",
+      "evidence": [
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W  RTO",
+          "cellRange": "B1609:C1609",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W SATP",
+          "cellRange": "E293",
+          "locator": null
+        },
+        {
+          "sourceKind": "COMMISSION_GRID_XLSX",
+          "file": "Large Insurance Brokers Mar'26 - Shared.xlsx",
+          "page": null,
+          "sheet": "4W SATP",
+          "cellRange": "B293:F293",
+          "locator": null
+        }
+      ]
+    }
+  ],
+  "sourceReport": "phase-2b/artifacts/godigit-satp/GO-DIGIT-ADAPTER-REPORT.md"
+}
